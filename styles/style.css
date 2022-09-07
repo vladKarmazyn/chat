@@ -36,7 +36,7 @@ align-items: center;
     
 }
 .message {
-    width: 420px;
+    width: 400px;
     min-height: 80px;
     border: solid 2px rgb(12, 71, 17);
     font-size: 14px;
