@@ -47,16 +47,13 @@ align-items: center;
     position: relative;
 
 }
-.message::after {
-    display: block;
-    content: '';
-    width: 10px;
-    height: 10px;
-    background-color: red;
+.close {
     position: absolute;
-    top: 5px;
-    right: 4px;
-    cursor: pointer;
+    top: 0;
+    right: 0;
+    background-color: aqua;
+    width: 20px;
+    height: 20px;
 }
 .wraper_input_input {
     padding: 10px;
