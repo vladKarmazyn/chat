@@ -49,11 +49,13 @@ align-items: center;
 }
 .close {
     position: absolute;
-    top: 0;
+    top: 5px;
     right: 0;
-    background-color: aqua;
+    background-image: url(../image/exit.png );
+    background-repeat: no-repeat;
     width: 20px;
     height: 20px;
+    cursor: pointer;
 }
 .wraper_input_input {
     padding: 10px;
