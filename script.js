@@ -21,18 +21,11 @@ function addMessage ( ) {
 };
 
 
-btn.addEventListener('click', () => {
-   addMessage();
-})
+btn.addEventListener('click', addMessage);
 
 input.onkeypress = function (event) {
     if (event.keyCode === 13 && !event.shiftKey) {
        addMessage();
     }
-    if (event.keyCode === 13 && event.shiftKey) {
-        
-    }
-    
-
 }
 
